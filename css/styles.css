@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #14274e;
+  --secondary-color: #f1f6f9;
+  --terciary-color: #51e3d4;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Azeret Mono", monospace, Helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+li a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
